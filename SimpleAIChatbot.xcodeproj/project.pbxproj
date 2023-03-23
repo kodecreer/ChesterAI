@@ -7,18 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74CC80729B82D920011AB0A /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CC80629B82D920011AB0A /* SubscriptionView.swift */; };
+		F74CC80A29B838060011AB0A /* ChatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CC80929B838060011AB0A /* ChatUI.swift */; };
+		F74CC81029B83C170011AB0A /* SettingsLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CC80F29B83C170011AB0A /* SettingsLink.swift */; };
+		F757099229B94F1A004DAE3B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F757099429B94F1A004DAE3B /* Localizable.strings */; };
+		F757099629B9501D004DAE3B /* LocalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757099529B9501D004DAE3B /* LocalKey.swift */; };
+		F757099E29B97B0F004DAE3B /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757099D29B97B0F004DAE3B /* AppIntents.swift */; };
+		F75709A029B97C06004DAE3B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757099F29B97C06004DAE3B /* AppModel.swift */; };
+		F7570A1029B99301004DAE3B /* TalkMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7570A0F29B99301004DAE3B /* TalkMoreView.swift */; };
+		F75B3FC629BBEF5B007ED8D6 /* SiriCommandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B3FC529BBEF5B007ED8D6 /* SiriCommandsView.swift */; };
+		F75B3FE429BC3E0C007ED8D6 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B3FE329BC3E0C007ED8D6 /* Database.swift */; };
+		F75B3FE729BC3FD4007ED8D6 /* TokenCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F75B3FE529BC3FD4007ED8D6 /* TokenCounter.xcdatamodeld */; };
+		F76B158A29945DFF00C32C94 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B158929945DFF00C32C94 /* ChatViewModel.swift */; };
+		F76B158C2994684600C32C94 /* TextBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76B158B2994684600C32C94 /* TextBubble.swift */; };
+		F77DAEC429B8036C00D61CFC /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DAEC329B8036C00D61CFC /* StoreViewModel.swift */; };
 		F78EFF472989B0CC0034774F /* SimpleAIChatbotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EFF462989B0CC0034774F /* SimpleAIChatbotApp.swift */; };
 		F78EFF492989B0CC0034774F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EFF482989B0CC0034774F /* ContentView.swift */; };
 		F78EFF4B2989B0CE0034774F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78EFF4A2989B0CE0034774F /* Assets.xcassets */; };
 		F78EFF4E2989B0CE0034774F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78EFF4D2989B0CE0034774F /* Preview Assets.xcassets */; };
+		F79D264129B3FD4E000B7B59 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D264029B3FD4E000B7B59 /* TextInputView.swift */; };
+		F79D264329B4049F000B7B59 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D264229B4049F000B7B59 /* ModelData.swift */; };
+		F79D264629B420A7000B7B59 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D264529B420A7000B7B59 /* MenuBar.swift */; };
+		F79D264829B4212B000B7B59 /* MenuTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D264729B4212B000B7B59 /* MenuTab.swift */; };
+		F79D264A29B428EC000B7B59 /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D264929B428EC000B7B59 /* MenuItems.swift */; };
+		F79D264E29B45305000B7B59 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79D264D29B45305000B7B59 /* MessageModel.swift */; };
+		F7A10E9029B6F4280054D0CD /* IAPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A10E8F29B6F4280054D0CD /* IAPButton.swift */; };
+		F7A10E9329B6FB590054D0CD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A10E9229B6FB590054D0CD /* SettingsView.swift */; };
+		F7C4A45A29BD582900922C36 /* IntroPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4A45929BD582900922C36 /* IntroPopup.swift */; };
+		F7C4A45D29BD8F0300922C36 /* AppShortcuts.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7C4A45F29BD8F0300922C36 /* AppShortcuts.strings */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F7A10E8529B6E4EA0054D0CD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F74CC80629B82D920011AB0A /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		F74CC80929B838060011AB0A /* ChatUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUI.swift; sourceTree = "<group>"; };
+		F74CC80F29B83C170011AB0A /* SettingsLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLink.swift; sourceTree = "<group>"; };
+		F757099329B94F1A004DAE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F757099529B9501D004DAE3B /* LocalKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalKey.swift; sourceTree = "<group>"; };
+		F757099B29B95D35004DAE3B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F757099D29B97B0F004DAE3B /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
+		F757099F29B97C06004DAE3B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F7570A0F29B99301004DAE3B /* TalkMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkMoreView.swift; sourceTree = "<group>"; };
+		F75B3FC429BBE0A4007ED8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F75B3FC529BBEF5B007ED8D6 /* SiriCommandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriCommandsView.swift; sourceTree = "<group>"; };
+		F75B3FE329BC3E0C007ED8D6 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		F75B3FE629BC3FD4007ED8D6 /* TokenCounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TokenCounter.xcdatamodel; sourceTree = "<group>"; };
+		F76B158929945DFF00C32C94 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		F76B158B2994684600C32C94 /* TextBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBubble.swift; sourceTree = "<group>"; };
+		F77DAEC329B8036C00D61CFC /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
 		F78EFF432989B0CC0034774F /* SimpleAIChatbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAIChatbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78EFF462989B0CC0034774F /* SimpleAIChatbotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAIChatbotApp.swift; sourceTree = "<group>"; };
 		F78EFF482989B0CC0034774F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F78EFF4A2989B0CE0034774F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78EFF4D2989B0CE0034774F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F79D264029B3FD4E000B7B59 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		F79D264229B4049F000B7B59 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F79D264529B420A7000B7B59 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		F79D264729B4212B000B7B59 /* MenuTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTab.swift; sourceTree = "<group>"; };
+		F79D264929B428EC000B7B59 /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		F79D264D29B45305000B7B59 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		F7A10E5E29B6E4CD0054D0CD /* SimpleAIChatbot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleAIChatbot.entitlements; sourceTree = "<group>"; };
+		F7A10E8C29B6F30C0054D0CD /* Config.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Config.storekit; sourceTree = "<group>"; };
+		F7A10E8F29B6F4280054D0CD /* IAPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPButton.swift; sourceTree = "<group>"; };
+		F7A10E9229B6FB590054D0CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F7C4A45929BD582900922C36 /* IntroPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPopup.swift; sourceTree = "<group>"; };
+		F7C4A45E29BD8F0300922C36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
+		F7C4A46029BD8F0800922C36 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppShortcuts.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +98,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74CC80829B836A70011AB0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F79D264229B4049F000B7B59 /* ModelData.swift */,
+				F75B3FE329BC3E0C007ED8D6 /* Database.swift */,
+				F76B158929945DFF00C32C94 /* ChatViewModel.swift */,
+				F79D264D29B45305000B7B59 /* MessageModel.swift */,
+				F77DAEC329B8036C00D61CFC /* StoreViewModel.swift */,
+				F757099529B9501D004DAE3B /* LocalKey.swift */,
+				F757099F29B97C06004DAE3B /* AppModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F74CC80B29B838B60011AB0A /* ChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				F79D264529B420A7000B7B59 /* MenuBar.swift */,
+				F74CC80C29B838D20011AB0A /* Components */,
+				F74CC80929B838060011AB0A /* ChatUI.swift */,
+			);
+			path = ChatUI;
+			sourceTree = "<group>";
+		};
+		F74CC80C29B838D20011AB0A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F79D264029B3FD4E000B7B59 /* TextInputView.swift */,
+				F76B158B2994684600C32C94 /* TextBubble.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F757099C29B97AEB004DAE3B /* SiriShortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				F757099D29B97B0F004DAE3B /* AppIntents.swift */,
+				F7C4A45F29BD8F0300922C36 /* AppShortcuts.strings */,
+				F7570A0F29B99301004DAE3B /* TalkMoreView.swift */,
+			);
+			path = SiriShortcuts;
+			sourceTree = "<group>";
+		};
 		F78EFF3A2989B0CC0034774F = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +160,17 @@
 		F78EFF452989B0CC0034774F /* SimpleAIChatbot */ = {
 			isa = PBXGroup;
 			children = (
+				F75B3FC429BBE0A4007ED8D6 /* Info.plist */,
+				F7A10E5E29B6E4CD0054D0CD /* SimpleAIChatbot.entitlements */,
+				F757099C29B97AEB004DAE3B /* SiriShortcuts */,
+				F74CC80829B836A70011AB0A /* Models */,
+				F79D264429B4206F000B7B59 /* Views */,
 				F78EFF462989B0CC0034774F /* SimpleAIChatbotApp.swift */,
 				F78EFF482989B0CC0034774F /* ContentView.swift */,
+				F75B3FE529BC3FD4007ED8D6 /* TokenCounter.xcdatamodeld */,
+				F7A10E8C29B6F30C0054D0CD /* Config.storekit */,
 				F78EFF4A2989B0CE0034774F /* Assets.xcassets */,
+				F757099429B94F1A004DAE3B /* Localizable.strings */,
 				F78EFF4C2989B0CE0034774F /* Preview Content */,
 			);
 			path = SimpleAIChatbot;
@@ -67,6 +184,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F79D264429B4206F000B7B59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F74CC80B29B838B60011AB0A /* ChatUI */,
+				F7A10E9129B6FB410054D0CD /* MenuBar */,
+				F74CC80629B82D920011AB0A /* SubscriptionView.swift */,
+				F7A10E9229B6FB590054D0CD /* SettingsView.swift */,
+				F75B3FC529BBEF5B007ED8D6 /* SiriCommandsView.swift */,
+				F74CC80F29B83C170011AB0A /* SettingsLink.swift */,
+				F7A10E8F29B6F4280054D0CD /* IAPButton.swift */,
+				F7C4A45929BD582900922C36 /* IntroPopup.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7A10E9129B6FB410054D0CD /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				F79D264929B428EC000B7B59 /* MenuItems.swift */,
+				F79D264729B4212B000B7B59 /* MenuTab.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +218,7 @@
 				F78EFF3F2989B0CC0034774F /* Sources */,
 				F78EFF402989B0CC0034774F /* Frameworks */,
 				F78EFF412989B0CC0034774F /* Resources */,
+				F7A10E8529B6E4EA0054D0CD /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -109,6 +251,9 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = F78EFF3A2989B0CC0034774F;
 			productRefGroup = F78EFF442989B0CC0034774F /* Products */;
@@ -125,7 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C4A45D29BD8F0300922C36 /* AppShortcuts.strings in Resources */,
 				F78EFF4E2989B0CE0034774F /* Preview Assets.xcassets in Resources */,
+				F757099229B94F1A004DAE3B /* Localizable.strings in Resources */,
 				F78EFF4B2989B0CE0034774F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +284,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A10E9029B6F4280054D0CD /* IAPButton.swift in Sources */,
+				F74CC81029B83C170011AB0A /* SettingsLink.swift in Sources */,
+				F74CC80729B82D920011AB0A /* SubscriptionView.swift in Sources */,
+				F75709A029B97C06004DAE3B /* AppModel.swift in Sources */,
+				F75B3FE429BC3E0C007ED8D6 /* Database.swift in Sources */,
+				F79D264129B3FD4E000B7B59 /* TextInputView.swift in Sources */,
+				F76B158C2994684600C32C94 /* TextBubble.swift in Sources */,
+				F757099629B9501D004DAE3B /* LocalKey.swift in Sources */,
 				F78EFF492989B0CC0034774F /* ContentView.swift in Sources */,
+				F74CC80A29B838060011AB0A /* ChatUI.swift in Sources */,
 				F78EFF472989B0CC0034774F /* SimpleAIChatbotApp.swift in Sources */,
+				F7C4A45A29BD582900922C36 /* IntroPopup.swift in Sources */,
+				F79D264829B4212B000B7B59 /* MenuTab.swift in Sources */,
+				F7570A1029B99301004DAE3B /* TalkMoreView.swift in Sources */,
+				F757099E29B97B0F004DAE3B /* AppIntents.swift in Sources */,
+				F76B158A29945DFF00C32C94 /* ChatViewModel.swift in Sources */,
+				F79D264E29B45305000B7B59 /* MessageModel.swift in Sources */,
+				F79D264629B420A7000B7B59 /* MenuBar.swift in Sources */,
+				F79D264329B4049F000B7B59 /* ModelData.swift in Sources */,
+				F75B3FE729BC3FD4007ED8D6 /* TokenCounter.xcdatamodeld in Sources */,
+				F77DAEC429B8036C00D61CFC /* StoreViewModel.swift in Sources */,
+				F75B3FC629BBEF5B007ED8D6 /* SiriCommandsView.swift in Sources */,
+				F79D264A29B428EC000B7B59 /* MenuItems.swift in Sources */,
+				F7A10E9329B6FB590054D0CD /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F757099429B94F1A004DAE3B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F757099329B94F1A004DAE3B /* en */,
+				F757099B29B95D35004DAE3B /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7C4A45F29BD8F0300922C36 /* AppShortcuts.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C4A45E29BD8F0300922C36 /* en */,
+				F7C4A46029BD8F0800922C36 /* es */,
+			);
+			name = AppShortcuts.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F78EFF4F2989B0CE0034774F /* Debug */ = {
@@ -264,23 +454,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleAIChatbot/SimpleAIChatbot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleAIChatbot/Preview Content\"";
 				DEVELOPMENT_TEAM = L7VYGWC426;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAIChatbot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chester;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kdcreer.SimpleAIChatbot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdcreer.SimpleAIChatbot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,23 +487,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleAIChatbot/SimpleAIChatbot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleAIChatbot/Preview Content\"";
 				DEVELOPMENT_TEAM = L7VYGWC426;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAIChatbot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chester;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kdcreer.SimpleAIChatbot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kdcreer.SimpleAIChatbot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,6 +537,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F75B3FE529BC3FD4007ED8D6 /* TokenCounter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F75B3FE629BC3FD4007ED8D6 /* TokenCounter.xcdatamodel */,
+			);
+			currentVersion = F75B3FE629BC3FD4007ED8D6 /* TokenCounter.xcdatamodel */;
+			path = TokenCounter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F78EFF3B2989B0CC0034774F /* Project object */;
 }

@@ -1,0 +1,11 @@
+/* 
+  AppShortcuts.strings
+  SimpleAIChatbot
+
+  Created by Kode Creer on 3/11/23.
+  
+*/
+"Start a conversation with ${applicationName}" = "Comenzar un conversación con ${applicationName}";
+"Chat with ${applicationName}" = "Charla con ${applicationName}";
+"Ask ${applicationName}" = "Pregunta ${applicationName}";
+"Quick question ${applicationName}" = "Una pregunta ${applicationName}";

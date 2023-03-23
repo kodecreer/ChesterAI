@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  SimpleAIChatbot
+
+  Created by Kode Creer on 3/8/23.
+  
+*/
+"menu-chat-title" = "Chester";
+"chat-prompt" = "Enter Text";
+"chat-clipboard" = "Succesfully copied message";
+"chat-error-internet-down" = "An error has occured. Please connect to the internet in order for the service to work properly.";
+"menu-chat-units %@ %@" = "Chat units: %@ / %@";
+"menu-tab-premium" = "Chester Plus";
+"menu-tab-rate-us" = "Rate us 5 stars!!!"; /*Replace with language*/
+"menu-tab-help" = "Help and Siri commands";
+"menu-tab-settings" = "Settings";
+"menu-tab-share" = "Share app with friends";
+"premium-np1" = "When you get premium you get:"; /* np stands for not paid while p stands for paid*/
+"premium-p1" = "Thank you for you purchase! You got:";
+"premium-p2" = "You currently have premium"; /*not paid will be handled by store kit config*/
+"premium-f1" = "- 1 million word tokens per month!"; /* f stands for feature*/
+"premium-f2" = "- Priority Access to new features!";
+"premium-f3" = "- (A wikipedia article on WW2 is approximately 30k tokens)"; /* np stands for not paid while p stands for paid*/
+"settings-owner" = "Chester by KDCreer";
+"settings-contact" = "Report Bugs or Contact";
+"settings-about" = "About us";
+"settings-tos" = "Terms of service";//new
+"settings-privacy" = "Privacy Policy";
+"settings-restore" = "Restore Purchases";
+"siri-units" = "Monthly unit limit";
+"siri-chat-phrase-1 %@" = "Start a conversation with %@";
+"siri-chat-phrase-2 %@" = "Chat with %@";
+"siri-quick-phrase-1 %@" = "Ask %@";
+"siri-quick-phrase-2 %@" = "Quick question %@";
+"intro" = "Welcome to the app. Enter anything in the text field and it will respond to your requests. There are some limits to be aware of.\n1. This may occasionally generate incorrect information or offensive things. Same limitation as ChatGPT.\n2.Please agree to our privacy policy and Terms of Service\n3.There is a Chester Plus option which will give you more units or similar to \"words\" to ask Chester\n4.To get Siri to use Chester say \n\"Chat with Chester\" or \"Quick question Chester\" then respond with you initial phrase. \nFor more information and all the different ways of initiating discussion via Siri, please go to the Help and Siri tips tab in the menu";
+"intro-a-pp" = "I agree to the Privacy Policy";
+"intro-v-pp" = "Click here to read Privacy Policy";
+"intro-a-tos" = "I agree to the Terms of Service";
+"intro-v-tos" = "Click here to read Terms of Service";
+"intro-continue" = "Continue";
+"help-intro" = "Welcome to the app. Enter anything in the text field and it will respond to your requests. There are some things to be aware of. The purpose of this app is to provide access to ChatGPT with the convenience on IPhone \n1. This may occasionally generate incorrect information or offensive things\n2.There is a Chester Plus option which will give you more units or similar to \"words\" to ask Chester. If you run out of units whether subscribed or not, you also have the option for extra units beyond the subscribtion. You need units in order to chat with Chester.";
+"help-commands-title1" = "Starting chats in app";
+"help-commands-title2" = "Starting chats outside of app";
+"help-commands-title3" = "Help and Siri Tips";
+"chester-response %@" = "Chester says: %@";
+"init-phrase" = "initial phrase";
+"ask-chester" = "Ask Chester";
+"errror-desc" = "An error has occured. Please connect to the internet in order for the service to work properly";

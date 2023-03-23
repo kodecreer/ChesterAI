@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  SimpleAIChatbot
+
+  Created by Kode Creer on 3/8/23.
+  
+*/
+"menu-chat-title" = "Chester";
+"chat-prompt" = "Entrar Texto";
+"chat-clipboard" = "Existosamente copiado el mensaje";
+"chat-error-internet-down" = "Un error ha occurrido. Por favor connecta a la red.";
+"menu-chat-units %@ %@" = "Unidades de chat: %@ / %@";
+"menu-tab-premium" = "Chester Plus";
+"menu-tab-settings" = "Adjustes";
+"menu-tab-rate-us" = "Calificanos 5 estrellas!!!"; /*Replace with language*/
+"menu-tab-help" = "Ayuda y Mandos de Siri";
+"menu-tab-share" = "Compartir";
+"premium-np1" = "Cuando compras premium vas a obtener:"; /* np stands for not paid while p stands for paid*/
+"premium-p1" = "Gracias por su compra! Obteniste:";
+"premium-p2" = "Ahora tienes premium"; /*not paid will be handled by store kit config*/
+"premium-f1" = "- 1 millón units por mes!"; /* f stands for feature*/
+"premium-f2" = "- Prioridad accesso por funciónes nuevos!";
+"premium-f3" = "- Apoya precios bajos!"; /* np stands for not paid while p stands for paid*/
+"settings-owner" = "Chester de KDCreer";
+"settings-contact" = "Contactar";
+"settings-tos" = "Temas de servicio";
+"settings-about" = "Sobre nosotros";
+"settings-privacy" = "Política de privacidad";
+"settings-restore" = "Restorar compras";
+"siri-units" = "Mensual límite de unidades";
+"siri-chat-phrase-1 %@" = "Comenzar un conversación con %@";
+"siri-chat-phrase-2 %@" = "Charla con %@";
+"siri-quick-phrase-1 %@" = "Pregunta %@";
+"siri-quick-phrase-2 %@" = "Una pregunta %@";
+"intro" = "Bievenidos. Entrar lo que cosa en la entrada luego se va a responder as su repuestas. Hay unos limitos saber.\n1 Occacionamente el AI se va a generar infomacion incorrecto o a veces cosas offensivas. El igual limitacion como ChatGPT\n2. Por favor estar de acuerdo con nos politica de privacid y las temas de servicio.\n3 Hay Chester Plus. Es un opcion recibier mas unidades. Unidades como es \"palabras\". Necesitas unidades hablar con Chester.\n4Si le gustaria usted hablar con Chester por Siri \n\"Comenzar un convsacion con Chester\" luego respona con su frase inicial. \nPor mas informacion y todos las maneras preguntar Chester por Siri. Por favor visitar Ayuda y Mandos de Siri en el menu.";
+"intro-a-pp" = "Estoy de acuerdo con la politica de privacidad.";
+"intro-v-pp" = "Tocar aqui ver la politca de privacida.";
+"intro-a-tos" = "Estoy de acuerdo con las temas de servicio.";
+"intro-v-tos" = "Tocar aqui ver las temas de servicio.";
+"help-intro" = "Bievenidos. Entrar lo que cosa en la entrada luego se va a responder as su repuestas. Hay unos limitos saber.\n1. Occacionamente el AI se va a generar infomacion incorrecto o a veces cosas offensivas. El igual limitacion como ChatGPT.\n2. Hay Chester Plus. Es un opcion recibier mas unidades. Unidades como es \"palabras\". Necesitas unidades hablar con Chester.";
+"intro-continue" = "Continuar";
+"help-commands-title1" = "Comenzar un conversacion en el app con Siri";
+"help-commands-title2" = "Comenzar un conversacion fuera el app con Siri";
+"help-commands-title3" = "Ayuda y Consejo de Siri";
+"chester-response %@" = "Chester dice: %@";
+"init-phrase" = "Frase inicial ";
+"ask-chester" = "Pedir Chester";
+"errror-desc" = "Un error ha occurido. Por favor connectar al red asi el servicio funciona correctamente.";

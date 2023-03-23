@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  SimpleAIChatbot
+
+  Created by Kode Creer on 3/8/23.
+  
+*/
+"menu-chat-title" = "孔迪";
+"chat-prompt" = "打字";
+"chat-clipboard" = "Succesfully copied message";
+"chat-error-internet-down" = "An error has occured. Please connect to the internet in order for the service to work properly.";
+"menu-tab-premium" = "Premium";
+"menu-tab-rate-us" = "Rate us 5 stars!!!"; /*Replace with language*/
+"menu-tab-help" = "Help and Siri commands";
+"menu-tab-share" = "Share";
+"premium-np1" = "When you get premium you get:"; /* np stands for not paid while p stands for paid*/
+"premium-p1" = "Thank you for you purchase! You got:";
+"premium-p2" = "You currently have premium"; /*not paid will be handled by store kit config*/
+"premium-f1" = "- 1 million units per month!"; /* f stands for feature*/
+"premium-f2" = "- Priority Access to new features!";
+"premium-f3" = "- Support low prices!"; /* np stands for not paid while p stands for paid*/
+"settings-owner" = "Chester by KDCreer";
+"settings-contact" = "Contact";
+"settings-about" = "About us";
+"settings-privacy" = "Privacy Policy";
+"settings-restore" = "Restore Purchases";
