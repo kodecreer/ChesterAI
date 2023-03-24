@@ -23,6 +23,7 @@ struct TextInputView: View {
                      
                   }
                   .disabled(!modelData.isChat)
+                  .background(!modelData.isChat ? .gray : .clear)
               Button {
                   submit()
               } label: {

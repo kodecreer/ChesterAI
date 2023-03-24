@@ -13,9 +13,14 @@
           "description" : "one time use",
           "displayName" : "50k units",
           "locale" : "en_US"
+        },
+        {
+          "description" : "Uno vez uso",
+          "displayName" : "50 mil units",
+          "locale" : "es_MX"
         }
       ],
-      "productID" : "com.temporary.wordbooster",
+      "productID" : "com.kdcreer.chesterai.wordbooster",
       "referenceName" : "unit booster",
       "type" : "Consumable"
     }
@@ -48,9 +53,19 @@
               "description" : "Monthly",
               "displayName" : "Chester Plus",
               "locale" : "en_US"
+            },
+            {
+              "description" : "Mensual",
+              "displayName" : "Chester Plus",
+              "locale" : "es_MX"
+            },
+            {
+              "description" : "Mensual",
+              "displayName" : "Chester Plus",
+              "locale" : "es_ES"
             }
           ],
-          "productID" : "com.temporary.monthly",
+          "productID" : "com.kdcreer.chesterai.monthly",
           "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Monthly",
           "subscriptionGroupID" : "AB7068EC",

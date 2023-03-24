@@ -38,7 +38,7 @@ struct SubscriptionView: View {
                             Task {
                                 do {
                                     try await storekitManager.purchase(_:storekitManager.subscriptions
-                                        .first(where: {$0.id == "com.temporary.wordbooster"})!)
+                                        .first(where: {$0.id == PurchaseProduct.moreUnits})!)
                                     getTokensThisMonth()
                                 }  catch {
                                     print(error)
@@ -47,15 +47,15 @@ struct SubscriptionView: View {
                             }
                         } label: {
                             VStack{
-                                Text(storekitManager.subscriptions.first(where: {$0.id == "com.temporary.wordbooster"})?.displayName ?? "Couldn't get unit booster")
+                                Text(storekitManager.subscriptions.first(where: {$0.id == PurchaseProduct.moreUnits})?.displayName ?? "Couldn't get unit booster")
                                     .foregroundColor(.white)
                                     .font(.title)
                                 Image("ChesterLightMode")
                                     .resizable()
                                     .frame(width: 60, height: 60)
-                                Text(storekitManager.subscriptions.first(where: {$0.id == "com.temporary.wordbooster"})?.description ?? "Couldn't get description.")
+                                Text(storekitManager.subscriptions.first(where: {$0.id == PurchaseProduct.moreUnits})?.description ?? "Couldn't get description.")
                                     .foregroundColor(.white)
-                                Text(storekitManager.subscriptions.first(where: {$0.id == "com.temporary.wordbooster"})?.displayPrice ?? "Couldn't get price")
+                                Text(storekitManager.subscriptions.first(where: {$0.id == PurchaseProduct.moreUnits})?.displayPrice ?? "Couldn't get price")
                                     .foregroundColor(.white)
                                     .font(.title2)
                             }
@@ -96,7 +96,7 @@ struct SubscriptionView: View {
                                     Text(sub.displayName)
                                         .foregroundColor(.white)
                                         .font(.title)
-                                    Image(sub.id == "com.temporary.monthly" ? "ChadChesterTransparent": "ChesterLightMode")
+                                    Image(sub.id == PurchaseProduct.chesterPlus ? "ChadChesterTransparent": "ChesterLightMode")
                                         .resizable()
                                         .frame(width: 80, height: 80)
                                         

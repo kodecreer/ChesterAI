@@ -25,7 +25,7 @@ struct ChatRequest: Codable {
 class ModelData: ObservableObject {
  
     @Published var messages: [ChatMessage] = []
-    @Published var isChat: Bool = false
+    @Published var isChat: Bool = true
     let url: URL = URL(string: "https://chester.api.kdcreer.com/send_message")!
     
     
@@ -105,6 +105,7 @@ class ModelData: ObservableObject {
                                     let response_msg = ChatMessage(is_aibot: message.is_bot, message: message.content, timestamp: datetime_to_string(Date()))
                                     self?.messages.removeLast()
                                     self?.messages.append(response_msg)
+                                    self?.isChat = true
                                 }
                                 
             

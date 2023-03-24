@@ -20,7 +20,7 @@
 "premium-p2" = "You currently have premium"; /*not paid will be handled by store kit config*/
 "premium-f1" = "- 1 million word tokens per month!"; /* f stands for feature*/
 "premium-f2" = "- Priority Access to new features!";
-"premium-f3" = "- (A wikipedia article on WW2 is approximately 30k tokens)"; /* np stands for not paid while p stands for paid*/
+"premium-f3" = "- (A wikipedia article on WW2 is approximately 30k units)"; /* np stands for not paid while p stands for paid*/
 "settings-owner" = "Chester by KDCreer";
 "settings-contact" = "Report Bugs or Contact";
 "settings-about" = "About us";

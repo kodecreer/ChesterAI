@@ -11,15 +11,15 @@ import StoreKit
 
 public enum PurchaseProduct {
     static var moreUnits: String {
-        return "com.temporary.wordbooster"
+        return "com.kdcreer.chesterai.wordbooster"
     }
     static var chesterPlus: String {
-        return "com.temporary.monthly"
+        return "com.kdcreer.chesterai.monthly"
     }
 }
 typealias RenewalState = StoreKit.Product.SubscriptionInfo.RenewalState
 class StoreVM : ObservableObject {
-    private let productIds: [String] = ["com.temporary.yearly", "com.temporary.monthly", "com.temporary.wordbooster"]
+    private let productIds: [String] = [ PurchaseProduct.chesterPlus, PurchaseProduct.moreUnits]
     @Published private(set) var subscriptions: [Product]  = []
     @Published private(set) var purchasedSubscriptions: [Product] = []
     @Published private(set) var purchasedIAP: [Product] = []
