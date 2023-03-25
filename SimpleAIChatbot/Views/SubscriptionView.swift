@@ -37,9 +37,11 @@ struct SubscriptionView: View {
                         Button {
                             Task {
                                 do {
-                                    try await storekitManager.purchase(_:storekitManager.subscriptions
-                                        .first(where: {$0.id == PurchaseProduct.moreUnits})!)
-                                    getTokensThisMonth()
+                                    if let purch = try await storekitManager.purchase(_:storekitManager.subscriptions
+                                        .first(where: {$0.id == PurchaseProduct.moreUnits})!){
+                                        print(purch)
+                                        getTokensThisMonth()
+                                    }
                                 }  catch {
                                     print(error)
                                 }
@@ -83,6 +85,7 @@ struct SubscriptionView: View {
                                 Task {
                                     do {
                                         if let purch = try await storekitManager.purchase(_:sub){
+                                            print(purch)
                                             getTokensThisMonth()
                                         }
                                        
