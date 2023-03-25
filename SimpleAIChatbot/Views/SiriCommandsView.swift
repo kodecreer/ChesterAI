@@ -15,7 +15,7 @@ struct CommandModel: Identifiable {
 
 struct SiriCommandsView: View {
     var chatStarts: [CommandModel] = [
-        CommandModel(text: "siri-chat-phrase-1 \("Chester")")
+        CommandModel(text: "siri-chat-phrase-1 \("Chester AI")")
         ,
         CommandModel(text: "siri-chat-phrase-2 \("Chester")")
         
@@ -23,9 +23,9 @@ struct SiriCommandsView: View {
     
     ]
     var chatQuick: [CommandModel] = [
-        CommandModel(text: "siri-quick-phrase-1 \("Chester")")
+        CommandModel(text: "siri-quick-phrase-1 \("Chester AI")")
         ,
-        CommandModel(text: "siri-quick-phrase-2 \("Chester")")
+        CommandModel(text: "siri-quick-phrase-2 \("Chester AI")")
         ,
     ]
     var body: some View {

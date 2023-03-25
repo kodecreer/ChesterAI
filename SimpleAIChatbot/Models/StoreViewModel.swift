@@ -49,7 +49,9 @@ class StoreVM : ObservableObject {
                     await self.updateCustomerProductStatus()
                     //Check here to update the thing according to the product sold
                     await transaction.finish()
-                    self.isPlus = self.isPremium()
+                    DispatchQueue.main.async {
+                        self.isPlus = self.isPremium()
+                    }
                     if transaction.productID == PurchaseProduct.moreUnits {
                         DispatchQueue.main.async {
                             Database.shared.createTokenLedger(Database.shared.tokenContainer.viewContext, 50000, true)
@@ -81,7 +83,10 @@ class StoreVM : ObservableObject {
             await transaction.finish()
             await updateCustomerProductStatus()
             //And right here. We can't allow free credits or my wallet would sink into the ground.
-            self.isPlus = self.isPremium()
+            DispatchQueue.main.async {
+                self.isPlus = self.isPremium()
+            }
+            
             if transaction.productID == PurchaseProduct.moreUnits {
                 DispatchQueue.main.async {
                     Database.shared.createTokenLedger(Database.shared.tokenContainer.viewContext, 50000, true)
@@ -137,7 +142,7 @@ class StoreVM : ObservableObject {
         }
     }
     func isPremium() -> Bool{
-        return self.purchasedSubscriptions.first(where: {$0.id == "com.temporary.monthly"}) != nil
+        return self.purchasedSubscriptions.first(where: {$0.id == PurchaseProduct.chesterPlus}) != nil
     }
     
 }

@@ -5,7 +5,7 @@
   Created by Kode Creer on 3/8/23.
   
 */
-"menu-chat-title" = "Chester";
+"menu-chat-title" = "Chester AI";
 "chat-prompt" = "Enter Text";
 "chat-clipboard" = "Succesfully copied message";
 "chat-error-internet-down" = "An error has occured. Please connect to the internet in order for the service to work properly.";
@@ -32,7 +32,7 @@
 "siri-chat-phrase-2 %@" = "Chat with %@";
 "siri-quick-phrase-1 %@" = "Ask %@";
 "siri-quick-phrase-2 %@" = "Quick question %@";
-"intro" = "Welcome to the app. Enter anything in the text field and it will respond to your requests. There are some limits to be aware of.\n1. This may occasionally generate incorrect information or offensive things. Same limitation as ChatGPT.\n2.Please agree to our privacy policy and Terms of Service\n3.There is a Chester Plus option which will give you more units or similar to \"words\" to ask Chester\n4.To get Siri to use Chester say \n\"Chat with Chester\" or \"Quick question Chester\" then respond with you initial phrase. \nFor more information and all the different ways of initiating discussion via Siri, please go to the Help and Siri tips tab in the menu";
+"intro" = "Welcome to the app. Enter anything in the text field and it will respond to your requests. There are some limits to be aware of.\n1. This may occasionally generate incorrect information or offensive things. Same limitation as ChatGPT.\n2.Please agree to our privacy policy and Terms of Service\n3.There is a Chester Plus option which will give you more units or similar to \"words\" to ask Chester\n4.To get Siri to use Chester say \n\"Chat with Chester AI\" or \"Quick question Chester AI\" then respond with you initial phrase. \nFor more information and all the different ways of initiating discussion via Siri, please go to the Help and Siri tips tab in the menu";
 "intro-a-pp" = "I agree to the Privacy Policy";
 "intro-v-pp" = "Click here to read Privacy Policy";
 "intro-a-tos" = "I agree to the Terms of Service";
@@ -44,5 +44,5 @@
 "help-commands-title3" = "Help and Siri Tips";
 "chester-response %@" = "Chester says: %@";
 "init-phrase" = "initial phrase";
-"ask-chester" = "Ask Chester";
+"ask-chester" = "Ask Chester AI";
 "errror-desc" = "An error has occured. Please connect to the internet in order for the service to work properly";

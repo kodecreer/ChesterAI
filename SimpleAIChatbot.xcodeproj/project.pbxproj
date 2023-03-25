@@ -67,7 +67,7 @@
 		F76B158929945DFF00C32C94 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		F76B158B2994684600C32C94 /* TextBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBubble.swift; sourceTree = "<group>"; };
 		F77DAEC329B8036C00D61CFC /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
-		F78EFF432989B0CC0034774F /* Chester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78EFF432989B0CC0034774F /* Chester AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chester AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78EFF462989B0CC0034774F /* SimpleAIChatbotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAIChatbotApp.swift; sourceTree = "<group>"; };
 		F78EFF482989B0CC0034774F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F78EFF4A2989B0CE0034774F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		F78EFF442989B0CC0034774F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F78EFF432989B0CC0034774F /* Chester.app */,
+				F78EFF432989B0CC0034774F /* Chester AI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F78EFF422989B0CC0034774F /* Chester */ = {
+		F78EFF422989B0CC0034774F /* Chester AI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F78EFF512989B0CE0034774F /* Build configuration list for PBXNativeTarget "Chester" */;
+			buildConfigurationList = F78EFF512989B0CE0034774F /* Build configuration list for PBXNativeTarget "Chester AI" */;
 			buildPhases = (
 				F78EFF3F2989B0CC0034774F /* Sources */,
 				F78EFF402989B0CC0034774F /* Frameworks */,
@@ -224,9 +224,9 @@
 			);
 			dependencies = (
 			);
-			name = Chester;
+			name = "Chester AI";
 			productName = SimpleAIChatbot;
-			productReference = F78EFF432989B0CC0034774F /* Chester.app */;
+			productReference = F78EFF432989B0CC0034774F /* Chester AI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +260,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F78EFF422989B0CC0034774F /* Chester */,
+				F78EFF422989B0CC0034774F /* Chester AI */,
 			);
 		};
 /* End PBXProject section */
@@ -527,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F78EFF512989B0CE0034774F /* Build configuration list for PBXNativeTarget "Chester" */ = {
+		F78EFF512989B0CE0034774F /* Build configuration list for PBXNativeTarget "Chester AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F78EFF522989B0CE0034774F /* Debug */,

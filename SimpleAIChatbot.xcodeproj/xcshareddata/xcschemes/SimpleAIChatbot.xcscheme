@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F78EFF422989B0CC0034774F"
-               BuildableName = "Chester.app"
-               BlueprintName = "Chester"
+               BuildableName = "Chester AI.app"
+               BlueprintName = "Chester AI"
                ReferencedContainer = "container:SimpleAIChatbot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F78EFF422989B0CC0034774F"
-            BuildableName = "Chester.app"
-            BlueprintName = "Chester"
+            BuildableName = "Chester AI.app"
+            BlueprintName = "Chester AI"
             ReferencedContainer = "container:SimpleAIChatbot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F78EFF422989B0CC0034774F"
-            BuildableName = "Chester.app"
-            BlueprintName = "Chester"
+            BuildableName = "Chester AI.app"
+            BlueprintName = "Chester AI"
             ReferencedContainer = "container:SimpleAIChatbot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

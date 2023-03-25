@@ -5,7 +5,7 @@
   Created by Kode Creer on 3/8/23.
   
 */
-"menu-chat-title" = "Chester";
+"menu-chat-title" = "Chester AI";
 "chat-prompt" = "Entrar Texto";
 "chat-clipboard" = "Existosamente copiado el mensaje";
 "chat-error-internet-down" = "Un error ha occurrido. Por favor connecta a la red.";
@@ -32,7 +32,7 @@
 "siri-chat-phrase-2 %@" = "Charla con %@";
 "siri-quick-phrase-1 %@" = "Pregunta %@";
 "siri-quick-phrase-2 %@" = "Una pregunta %@";
-"intro" = "Bievenidos. Entrar lo que cosa en la entrada luego se va a responder as su repuestas. Hay unos limitos saber.\n1 Occacionamente el AI se va a generar infomacion incorrecto o a veces cosas offensivas. El igual limitacion como ChatGPT\n2. Por favor estar de acuerdo con nos politica de privacid y las temas de servicio.\n3 Hay Chester Plus. Es un opcion recibier mas unidades. Unidades como es \"palabras\". Necesitas unidades hablar con Chester.\n4Si le gustaria usted hablar con Chester por Siri \n\"Comenzar un convsacion con Chester\" luego respona con su frase inicial. \nPor mas informacion y todos las maneras preguntar Chester por Siri. Por favor visitar Ayuda y Mandos de Siri en el menu.";
+"intro" = "Bievenidos. Entrar lo que cosa en la entrada luego se va a responder as su repuestas. Hay unos limitos saber.\n1 Occacionamente el AI se va a generar infomacion incorrecto o a veces cosas offensivas. El igual limitacion como ChatGPT\n2. Por favor estar de acuerdo con nos politica de privacid y las temas de servicio.\n3 Hay Chester Plus. Es un opcion recibier mas unidades. Unidades como es \"palabras\". Necesitas unidades hablar con Chester.\n4Si le gustaria usted hablar con Chester por Siri \n\"Comenzar un convsacion con Chester AI\" luego respona con su frase inicial. \nPor mas informacion y todos las maneras preguntar Chester por Siri. Por favor visitar Ayuda y Mandos de Siri en el menu.";
 "intro-a-pp" = "Estoy de acuerdo con la politica de privacidad.";
 "intro-v-pp" = "Tocar aqui ver la politca de privacida.";
 "intro-a-tos" = "Estoy de acuerdo con las temas de servicio.";
@@ -44,5 +44,5 @@
 "help-commands-title3" = "Ayuda y Consejo de Siri";
 "chester-response %@" = "Chester dice: %@";
 "init-phrase" = "Frase inicial ";
-"ask-chester" = "Pedir Chester";
+"ask-chester" = "Pedir Chester AI";
 "errror-desc" = "Un error ha occurido. Por favor connectar al red asi el servicio funciona correctamente.";
