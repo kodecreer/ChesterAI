@@ -17,7 +17,7 @@ struct SiriCommandsView: View {
     var chatStarts: [CommandModel] = [
         CommandModel(text: "siri-chat-phrase-1 \("Chester AI")")
         ,
-        CommandModel(text: "siri-chat-phrase-2 \("Chester")")
+        CommandModel(text: "siri-chat-phrase-2 \("Chester AI")")
         
         
     
