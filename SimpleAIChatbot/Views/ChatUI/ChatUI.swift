@@ -49,6 +49,7 @@ struct ChatUI: View {
         formatter.dateFormat = "MM"
         let thisMonth = formatter.string(from: Date())
         Database.shared.totalTokens = 0
+        var previousMonths = 0
         for token in tokens{
             if let date = token.date {
                 let month = formatter.string(from: date)
@@ -64,9 +65,26 @@ struct ChatUI: View {
                     }
                     
                     
+                } else {
+                    //Previous months
+                    DispatchQueue.main.async {
+                        if token.is_boost {
+                            previousMonths -= Int(token.token_count)
+                        } else {
+                            previousMonths += Int(token.token_count)
+                            
+                        }
+                    }
+                    
                 }
             }
         }
+        DispatchQueue.main.async {
+            if previousMonths < 0 {
+                Database.shared.totalTokens += previousMonths
+            }
+        }
+        
      
     }
     
